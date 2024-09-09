@@ -1,0 +1,537 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Clases</title>
+<meta name="generator" content="WYSIWYG Web Builder 18 - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+div#container
+{
+   width: 800px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+@keyframes fall
+{
+   0% { transform: perspective(1300px) translate3d(0px,0px,600px) rotateX(20deg) ; opacity: 0;  }
+   100% { transform: translate3d(0px,0px,0px) rotateX(0deg) ; opacity: 1;  }
+}
+h1, .h1
+{
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 32px;
+   text-decoration: none;
+   color: #FFEBCD;
+   --color: #FFEBCD;
+   background-color: transparent;
+   background-image: none;
+   cursor: default;
+   margin: 0 0 0 0;
+   padding: 0 0 0 0;
+   display: inline;
+}
+#Layer1
+{
+   background-color: #0C2635;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape4
+{
+   width: 781px;
+   height: 62px;
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #A0A0A0 solid;
+}
+#Shape1
+{
+   width: 236px;
+   height: 595px;
+   background-color: #0C2635;
+   background-image: none;
+   border: 0px #000000 solid;
+}
+#Shape3
+{
+   width: 528px;
+   height: 2px;
+   background-color: #C0C0C0;
+   background-image: none;
+   border: 0px #000000 solid;
+}
+#Shape2
+{
+   width: 236px;
+   height: 20px;
+   background-color: #023D58;
+   background-image: none;
+   border: 0px #000000 solid;
+}
+#Layer3
+{
+   background-color: #023D58;
+   background-image: none;
+   border-radius: 0px;
+}
+#Layer4
+{
+   background-color: #0C2635;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text11 div
+{
+   text-align: center;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid rgba(250,250,210,0.49);
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Carousel1 .frame
+{
+   width: 495px;
+   display: inline-block;
+   float: left;
+   height: 213px;
+}
+#wb_Carousel1 .pagination
+{
+   bottom: 0;
+   left: 0;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   width: 100%;
+   z-index: 998;
+}
+#wb_Carousel1 .pagination a
+{
+   display: inline-block;
+   margin: 12px 12px 12px 12px;
+   width: 11px;
+   height: 11px;
+   cursor: pointer;
+   text-indent: -999px;
+   border-radius: 50%;
+   background-color: #FFFFFF;
+   border: 1px solid #000000;
+}
+#wb_Carousel1 .pagination a.active
+{
+   background-color: #000000;
+}
+#wb_Carousel1 .carousel-control-next, #wb_Carousel1 .carousel-control-prev
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   text-align: center;
+   opacity: 0.5;
+   transition: opacity 0.3s ease;
+}
+#wb_Carousel1 .carousel-control-next-icon, #wb_Carousel1 .carousel-control-prev-icon
+{
+   display: inline-block;
+   width: 32px;
+   height: 32px;
+   background: transparent no-repeat center center;
+   background-size: 100% 100%;
+}
+#wb_Carousel1 .carousel-control-next:hover, #wb_Carousel1 .carousel-control-prev:hover
+{
+   text-decoration: none;
+   outline: 0;
+   opacity: 1;
+}
+#wb_Carousel1 .carousel-control-prev-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M100%2026%20L62%2064%20L100%20102%20C101%20103%2c%20101%20104%2c%20101%20106%20C101%20107%2c%20101%20108%2c%20100%20109%20L88%20121%20C87%20122%2c%2086%20122%2c%2085%20122%20C84%20122%2c%2083%20122%2c%2082%20121%20L29%2068%20C28%2067%2c%2027%2066%2c%2027%2064%20C27%2063%2c%2028%2062%2c%2029%2061%20L82%208%20C83%207%2c%2084%207%2c%2085%207%20C86%207%2c%2087%207%2c%2088%208%20L100%2020%20C101%2021%2c%20101%2022%2c%20101%2023%20C101%2024%2c%20101%2026%2c%20100%2026%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#wb_Carousel1 .carousel-control-next-icon
+{
+   background: url('data:image/svg+xml,%3csvg%20style%3d%22fill:%23000000%22%20viewBox%3d%220%200%20128%20128%22%20version%3d%221.1%22%20xmlns%3d%22http://www.w3.org/2000/svg%22%3e%0d%0a%20%20%20%3cpath%20d%3d%22M99%2068%20L46%20121%20C45%20122%2c%2044%20122%2c%2043%20122%20C42%20122%2c%2041%20122%2c%2040%20121%20L28%20109%20C27%20108%2c%2027%20107%2c%2027%20106%20C27%20104%2c%2027%20103%2c%2028%20102%20L66%2064%20L28%2026%20C27%2026%2c%2027%2024%2c%2027%2023%20C27%2022%2c%2027%2021%2c%2028%2020%20L40%208%20C41%207%2c%2042%207%2c%2043%207%20C44%207%2c%2045%207%2c%2046%208%20L99%2061%20C100%2062%2c%20101%2063%2c%20101%2064%20C101%2066%2c%20100%2067%2c%2099%2068%22/%3e%0d%0a%3c/svg%3e%0d%0a') no-repeat center center;
+}
+#Carousel1_back
+{
+   position: absolute;
+   left: 4px;
+   top: 42%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel1_next
+{
+   position: absolute;
+   right: 4px;
+   top: 42%;
+   width: 32px;
+   height: 32px;
+   z-index: 999;
+}
+#Carousel1_back a, #Carousel1_next a
+{
+   cursor: pointer;
+}
+#Carousel1 .frame-1
+{
+   background-color: transparent;
+   background-image: url('images/IMG%2d20231220%2dWA0020.jpg');
+   background-repeat: repeat;
+   background-position: left top;
+   background-size: contain;
+}
+#Carousel1 .frame-2
+{
+   background-color: transparent;
+   background-image: url('images/IMG%2d20231220%2dWA0079.jpg');
+   background-repeat: repeat;
+   background-position: left top;
+   background-size: contain;
+}
+#Carousel1 .frame-3
+{
+   background-color: transparent;
+   background-image: url('images/IMG%2d20231226%2dWA0026.jpg');
+   background-repeat: repeat;
+   background-position: left top;
+   background-size: contain;
+}
+#wb_CssMenu2
+{
+   border: 0px solid #DCDCDC;
+   border-radius: 0px;
+   background-color: transparent;
+   margin: 0;
+   text-align: center;
+}
+#wb_CssMenu2 ul
+{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+}
+#wb_CssMenu2 li
+{
+   margin: 0;
+   padding: 0px 0px 0px 0px;
+}
+#wb_CssMenu2 a
+{
+   display: block;
+   float: left;
+   color: #4B6675;
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   background-color: #DCDCDC;
+   background-image: none;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   font-style: normal;
+   text-decoration: none;
+   height: 28px;
+   line-height: 28px;
+   padding: 0px 5px 0px 5px;
+   vertical-align: middle;
+   text-align: center;
+}
+#wb_CssMenu2 li:hover a, #wb_CssMenu2 a:hover, #wb_CssMenu2 .active
+{
+   color: #4B6675;
+   border: 0px solid #C0C0C0;
+   background-color: #B7C2C8;
+   background-image: none;
+}
+#wb_CssMenu2 li.firstmain
+{
+   padding-left: 0px;
+}
+#wb_CssMenu2 li.lastmain
+{
+   padding-right: 0px;
+}
+#wb_CssMenu2 br
+{
+   clear: both;
+   font-size: 1px;
+   height: 0;
+   line-height: 0;
+}
+@media all and (max-width:799px) 
+{
+#wb_CssMenu2 ul
+{
+   flex-direction: column;
+   width: 100%;
+}
+#wb_CssMenu2 li
+{
+   padding: 0 0px 8px 0px !important;
+   width: 100% !important;
+}
+#wb_CssMenu2 a
+{
+   box-sizing: border-box;
+   float: none !important;
+   width: 100% !important;
+}
+
+}
+#Label1
+{
+   border: 1px solid transparent;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color: #FFFAFA;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 17px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+   animation: fall 2000ms linear 0ms infinite normal both;
+   padding: 4px 4px 4px 4px;
+}
+#Label1:focus
+{
+   outline: 0;
+}
+#toc_container
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid transparent;
+   border-radius: 0px;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   line-height: 1.12;
+   margin: 0;
+   text-align: left;
+}
+#toc_container ul
+{
+   list-style-type: disc;
+   list-style-position: inside;
+}
+#toc_container a
+{
+   color: inherit;
+    text-decoration: inherit
+}
+#toc_container > ul
+{
+   margin: 0;
+   padding: 0;
+}
+#toc_container > ul ul
+{
+   padding: 0 50px;
+}
+#toc_container .toc_title
+{
+   font-weight: bold;
+   font-size: 19px;
+   padding: 0 0 0.5em 0;
+}
+#MediaPlayer1 img
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border: 0px solid #000000;
+   border-radius: 0px;
+}
+</style>
+<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="wb.carousel.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css" type="text/css">
+<script type="text/javascript" src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+function displaylightbox(url, options)
+{
+   options.items = { src: url };
+   options.type = 'iframe';
+   $.magnificPopup.open(options);
+}
+</script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+   $('#MediaPlayer1').magnificPopup(
+   {
+      closeBtnInside: false,
+      items: {
+         type: 'inline',
+         src: '<div style="position:relative;max-width:640px;margin:20px auto;"><video id="MediaPlayer1" autoplay controls playsinline width="640" height="385"><source src=""></video></div>'}
+   });
+});
+</script>
+</head>
+<body>
+<div id="Layer1" style="position:absolute;text-align:center;left:2px;top:0px;width:100%;height:80px;z-index:4;">
+<div id="Layer1_Container" style="width:800px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text6" style="position:absolute;left:210px;top:15px;width:314px;height:43px;z-index:0;">
+<span style="color:#A5A0A4;font-family:'Trebuchet MS';font-size:37px;"><strong>U.A.I - M.I.S V1.0</strong></span></div>
+<div id="wb_Image1" style="position:absolute;left:25px;top:9px;width:151px;height:59px;z-index:1;">
+<img src="images/LOGO.gif" id="Image1" alt="" width="151" height="60"></div>
+</div>
+</div>
+<div id="container">
+<div id="wb_Shape4" style="position:absolute;left:12px;top:75px;width:781px;height:62px;z-index:5;">
+<div id="Shape4"></div></div>
+<div id="wb_Shape1" style="position:absolute;left:11px;top:153px;width:236px;height:595px;z-index:6;">
+<div id="Shape1"></div></div>
+<div id="wb_Shape3" style="position:absolute;left:266px;top:170px;width:528px;height:2px;z-index:7;">
+<div id="Shape3"></div></div>
+<div id="wb_Shape2" style="position:absolute;left:12px;top:137px;width:236px;height:20px;z-index:8;">
+<div id="Shape2"></div></div>
+<div id="wb_Carousel1" style="position:absolute;left:276px;top:186px;width:495px;height:213px;z-index:9;overflow:hidden;" class="h1">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame frame-1">
+</div>
+<div class="frame frame-2">
+</div>
+<div class="frame frame-3">
+</div>
+</div>
+<div id="Carousel1_back"><a class="carousel-control-prev" role="button"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a></div>
+<div id="Carousel1_next"><a class="carousel-control-next" role="button"><span class="carousel-control-next-icon" aria-hidden="true"></span></a></div>
+</div>
+<div id="wb_CssMenu2" style="position:absolute;left:131px;top:92px;width:537px;height:28px;z-index:10;">
+<ul id="CssMenu2" role="menubar" class="nav">
+<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="./index.html" target="_self" title="Home">Home</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self" title="Equipo de trabajo">Team&nbsp;UAI</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link active" href="./Capacitacion.html" target="_self" title="Calendario de capacitación">Capacitación</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self" title="Reportes presentados">Reportes&nbsp;</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="./dashboard.html" target="_self" title="Tablero de comandos interactivo">Dashboard</a>
+</li>
+<li role="menuitem" class="nav-item"><a class="nav-link" href="" target="_self" title="Contact">Contact</a>
+</li>
+</ul>
+</div>
+<label for="" id="Label1" style="position:absolute;left:41px;top:166px;width:167px;height:31px;line-height:33px;z-index:11;">Clases Asincronicas</label>
+<div id="wb_toc_container" style="position:absolute;left:52px;top:279px;width:158px;height:275px;z-index:12;">
+<div id="toc_container" aria-labelledby="toc_container_title">
+<div class="toc_title" id="toc_container_title">Table of contents</div>
+<ul class="toc_list">
+<li><a href="javascript:displaylightbox('./clase1.mp4',{mediaplayer1})" target="_self">Item 1</a></li>
+<li><a href="javascript:displaylightbox('./clase2.mp4',{})" target="_self" rel="nofollow">Item 2</a></li>
+<li><a href="javascript:displaylightbox('./Deming1.mp4',{})" target="_self" rel="noopener">Item 3</a></li>
+</ul>
+</div></div>
+<div id="wb_MediaPlayer1" style="position:absolute;left:356px;top:450px;width:335px;height:172px;z-index:13;">
+<a id="MediaPlayer1" title="" href="#"><img src="" alt=""></a>
+</div>
+</div>
+<div id="Layer3" style="position:absolute;text-align:center;left:2px;top:772px;width:100%;height:26px;z-index:14;">
+<div id="Layer3_Container" style="width:800px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+</div>
+</div>
+<div id="Layer4" style="position:absolute;text-align:center;left:2px;top:798px;width:100%;height:100px;z-index:15;">
+<div id="Layer4_Container" style="width:800px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text11" style="position:absolute;left:7px;top:42px;width:780px;height:12px;text-align:center;z-index:2;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:11px;">Copyright © 2024 by Team UAI&nbsp;&nbsp; ·&nbsp; All Rights reserved&nbsp; ·&nbsp; E-Mail: juan.matwiejczuk@obsba.org.ar</span></div>
+<div id="wb_Image2" style="position:absolute;left:56px;top:23px;width:88px;height:50px;z-index:3;">
+<img src="images/LOGO%20UAI.gif" id="Image2" alt="" width="88" height="50"></div>
+</div>
+</div>
+</body>
+</html>
